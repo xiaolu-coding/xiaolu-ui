@@ -16,6 +16,7 @@ import Test from "./components/Test";
   </div> -->
   <Test />
   <HelloWorld msg="Vite + Vue" />
+  <LButton>确定</LButton>
 </template>
 
 <style scoped>
