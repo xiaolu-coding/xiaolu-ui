@@ -1,11 +1,16 @@
 <template>
-  <LButton type="primary">测试</LButton>
-  <LButton></LButton>
+  <LButton type="primary" size="large">测试</LButton>
+  <LButton size="medium" @click="confirm"></LButton>
+  <LButton size="small" disabled @click="confirm">试试</LButton>
 </template>
 
 <script lang="ts" setup>
 import Test from "./components/Test";
 import LButton from "./button/src/Button";
+
+const confirm = () => {
+  console.log('111')
+}
 </script>
 
 <style scoped>
