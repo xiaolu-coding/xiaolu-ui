@@ -1,6 +1,6 @@
 <template>
   <LButton type="primary">测试</LButton>
-  <LButton>确定</LButton>
+  <LButton></LButton>
 </template>
 
 <script lang="ts" setup>

@@ -6,9 +6,10 @@ export default defineComponent({
   props: buttonProps,
   setup(props: ButtonProps, { slots }) {
     const  { type } = toRefs(props)
+    const defaultSlot = slots.default ? slots.default() : '按钮'
 
     return () => {
-      return <button class={`s-btn s-btn--${type.value}`}>{slots.default ? slots.default() : '按钮'}</button>
+      return <button class={`s-btn s-btn--${type.value}`}>{defaultSlot}</button>
     }
   }
 })
