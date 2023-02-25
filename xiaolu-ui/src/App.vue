@@ -1,5 +1,5 @@
 <template>
-  <LButton type="primary" size="large">测试</LButton>
+  <LButton type="primary" block size="large">测试</LButton>
   <LButton size="medium" @click="confirm"></LButton>
   <LButton size="small" disabled @click="confirm">试试</LButton>
 </template>
