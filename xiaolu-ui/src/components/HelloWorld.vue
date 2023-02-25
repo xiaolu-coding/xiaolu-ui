@@ -1,6 +1,6 @@
 
 <template>
-  <h1 class="text-3xl font-bold underline">{{ msg }}</h1>
+  <h1 class="text-3xl font-bold underline">test: {{ count }}</h1>
 </template>
 
 <script setup lang="ts">
